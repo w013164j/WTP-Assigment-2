@@ -1,0 +1,58 @@
+* {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 450px;
+}
+
+.header h2 {
+    margin-bottom: 0;
+}
+
+.header p {
+    border: solid black;
+    background-color: black;
+    color: #39FF14;
+    font-size: 24px;
+    font-weight: bold;
+    width: 150px;
+}
+
+#pictures {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 450px;
+}
+
+#pictures img {
+    border: solid black;
+    width: 140px;
+    height: auto;
+}
+
+#output {
+    width: 450px;
+    border: solid black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#actions {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 450px;
+}
+
+#actions button {
+    border: solid black;
+    background-color: white;
+    font-size: 24px;
+    font-weight: bold;
+    width: 140px;
+}

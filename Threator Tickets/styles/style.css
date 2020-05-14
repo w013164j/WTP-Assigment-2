@@ -1,0 +1,31 @@
+* {
+    align-items: center;
+}
+
+fieldset {
+    margin: 0px;
+    border: solid black;
+}
+
+fieldset:not(#ticket-collection) {
+    display: flex;
+}
+
+
+legend {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button {
+    margin-top: 16px;
+    border: solid black;
+    background-color: white;
+    font-size: 18px;
+    font-weight: bold;
+} 
+
+#output {
+    height: 95px;
+    border: solid black;
+}
